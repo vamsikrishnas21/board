@@ -1,0 +1,10 @@
+.whiteboard {
+  width: 100%;
+  height: 100%;
+  border: 2px dashed darkgoldenrod;
+}
+
+.sketch {
+  width: 100%;
+  height: 100%;
+}
