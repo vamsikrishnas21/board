@@ -33,7 +33,7 @@ class Layout extends React.Component{
 
        
             <div className="layout">
-                <center><b><h2>Whiteboard</h2></b></center>
+            
 
               
 
@@ -41,6 +41,7 @@ class Layout extends React.Component{
           
                <h3 className="name-midile"></h3>
                 <div class="tools-section">
+                
                    
 <br />
                     
