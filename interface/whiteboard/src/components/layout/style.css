@@ -2,10 +2,10 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgb(6, 252, 219);
+  background-color: rgb(252, 6, 6);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 10px ridge rgb(6, 252, 219);
+  border: 10px ridge rgb(243, 246, 245);
 }
 
 .color-picker-container {
@@ -17,7 +17,7 @@
 .brushsize-container {
   display: inline;
   color: rgb(5, 5, 5);
-  margin-left: 12px;
+  margin-left: 100px;
 }
 
 .tools-section {
@@ -27,8 +27,8 @@
 }
 
 .whiteboard-layout {
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height: 80%;
   margin: auto;
   margin-top: 1%;
   background: white;

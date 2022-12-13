@@ -34,15 +34,12 @@ class Layout extends React.Component{
        
             <div className="layout">         
                <h3 className="name-midile"></h3>
-               <center><h2>Collaborative Whiteboard</h2></center>
+               <center><h2>Whiteboard</h2></center>
                 <div class="tools-section">
-                <div className="color-picker-container">
-                        Select Brush Color : &nbsp;
-                        <input type="color" value={this.state.color} onChange={this.changeColor.bind(this)} />
-                    </div>
+              
 
                     <div className="brushsize-container">
-                        Select Brush Size : &nbsp;
+                        Brush Size : &nbsp;
                         <select value={this.state.size} onChange={this.changeSize.bind(this)}>
                            <option>1</option>
                            <option>5</option>
