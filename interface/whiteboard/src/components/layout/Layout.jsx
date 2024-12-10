@@ -14,54 +14,26 @@ class Layout extends React.Component{
         }
        
     }
-    
     changeColor(params) {
         this.setState({
             color: params.target.value
         })
     }
-
     changeSize(params) {
         this.setState({
             size: params.target.value
         })
     }
-
     render() {
-
         return (
-
-       
             <div className="layout">         
-               <h3 className="name-midile"></h3>
-               <center><h2>Whiteboard</h2></center>
-                <div class="tools-section">
-              
-
-                    <div className="brushsize-container">
-                        Brush Size : &nbsp;
-                        <select value={this.state.size} onChange={this.changeSize.bind(this)}>
-                           <option>1</option>
-                           <option>5</option>
-                           <option>10</option>
-                           <option>15</option>
-                           <option>20</option>
-                           <option>25</option>
-                           <option>30</option>
-                           <option>35</option>
-                           <option>40</option>
-                           <option>45</option>
-                           <option>50</option>
-                           <option>55</option>
-
-                        </select>
-                    </div>
-                    
-                </div>
+               <center><h2>Distributed Whiteboard</h2></center>
+               
+                
             
-                <div class="whiteboard-layout">
+                <div className="whiteboard-layout">
                     
-                    <Whiteboard color={this.state.color} size={this.state.size}></Whiteboard>
+                    <Whiteboard size={this.state.size}></Whiteboard>
                 </div>
 
             </div>
