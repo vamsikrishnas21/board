@@ -2,10 +2,10 @@
   position: fixed;
   width: 100%;
   height: 100%;
-  background-color: rgb(252, 6, 6);
+  background-color: rgb(224, 249, 122);
   background-repeat: no-repeat;
   background-size: cover;
-  border: 10px ridge rgb(243, 246, 245);
+  border: 10px ridge rgb(245, 247, 246);
 }
 
 .color-picker-container {
@@ -16,7 +16,7 @@
 
 .brushsize-container {
   display: inline;
-  color: rgb(5, 5, 5);
+  color: rgb(12, 12, 12);
   margin-left: 100px;
 }
 
@@ -27,14 +27,14 @@
 }
 
 .whiteboard-layout {
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   margin: auto;
   margin-top: 1%;
   background: white;
 }
 
-/* name hading */
+
 
 .name-midile {
   text-align: justify;
@@ -44,6 +44,10 @@
   margin-top: -10px;
 }
 h2{
-  color:rgb(9, 9, 9);
+  color:rgb(12, 12, 12);
+  
+}
+h4{
+  color:rgb(12, 12, 12);
   
 }
