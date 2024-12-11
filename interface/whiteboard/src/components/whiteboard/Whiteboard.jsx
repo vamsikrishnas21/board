@@ -3,7 +3,7 @@ import io from 'socket.io-client';
 import './style.css';
 
 class Whiteboard extends React.Component {
-    socket = io.connect("http://localhost:8000");
+    socket = io.connect("http://18.175.138.149:8000");
     collabctx;
     timeout;
 
